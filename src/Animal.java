@@ -20,6 +20,9 @@ public class Animal {
     static Scanner userInput = new Scanner(System.in);
 
     public Animal() {
-        super();
+        numberOfAnimals++;
+
+        int sumOfNumbers = 5+1;
+        System.out.println("5+1 = " + sumOfNumbers);
     }
 }
